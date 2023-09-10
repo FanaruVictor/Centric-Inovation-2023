@@ -1,0 +1,15 @@
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.BusinessLogic\obj\Debug\net7.0\InPositionChatBot.BusinessLogic.csproj.AssemblyReference.cache
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.BusinessLogic\obj\Debug\net7.0\InPositionChatBot.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.BusinessLogic\obj\Debug\net7.0\InPositionChatBot.BusinessLogic.AssemblyInfoInputs.cache
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.BusinessLogic\obj\Debug\net7.0\InPositionChatBot.BusinessLogic.AssemblyInfo.cs
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.BusinessLogic\obj\Debug\net7.0\InPositionChatBot.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.BusinessLogic\bin\Debug\net7.0\InPositionChatBot.BusinessLogic.deps.json
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.BusinessLogic\bin\Debug\net7.0\InPositionChatBot.BusinessLogic.dll
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.BusinessLogic\bin\Debug\net7.0\InPositionChatBot.BusinessLogic.pdb
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.BusinessLogic\bin\Debug\net7.0\InPositionChatBot.Domain.dll
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.BusinessLogic\bin\Debug\net7.0\InPositionChatBot.Domain.pdb
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.BusinessLogic\obj\Debug\net7.0\InPositionChatBot.BusinessLogic.csproj.CopyComplete
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.BusinessLogic\obj\Debug\net7.0\InPositionChatBot.BusinessLogic.dll
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.BusinessLogic\obj\Debug\net7.0\refint\InPositionChatBot.BusinessLogic.dll
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.BusinessLogic\obj\Debug\net7.0\InPositionChatBot.BusinessLogic.pdb
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.BusinessLogic\obj\Debug\net7.0\ref\InPositionChatBot.BusinessLogic.dll

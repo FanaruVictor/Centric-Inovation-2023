@@ -1,0 +1,17 @@
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\bin\Debug\net7.0\InPositionChatBot.Data.deps.json
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\bin\Debug\net7.0\InPositionChatBot.Data.runtimeconfig.json
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\bin\Debug\net7.0\InPositionChatBot.Data.dll
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\bin\Debug\net7.0\InPositionChatBot.Data.pdb
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\obj\Debug\net7.0\InPositionChatBot.Data.csproj.AssemblyReference.cache
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\obj\Debug\net7.0\InPositionChatBot.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\obj\Debug\net7.0\InPositionChatBot.Data.AssemblyInfoInputs.cache
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\obj\Debug\net7.0\InPositionChatBot.Data.AssemblyInfo.cs
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\obj\Debug\net7.0\InPositionChatBot.Data.csproj.CoreCompileInputs.cache
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\obj\Debug\net7.0\InPositionChatBot.Data.dll
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\obj\Debug\net7.0\refint\InPositionChatBot.Data.dll
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\obj\Debug\net7.0\InPositionChatBot.Data.pdb
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\obj\Debug\net7.0\InPositionChatBot.Data.genruntimeconfig.cache
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\obj\Debug\net7.0\ref\InPositionChatBot.Data.dll
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\bin\Debug\net7.0\InPositionChatBot.Domain.dll
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\bin\Debug\net7.0\InPositionChatBot.Domain.pdb
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Data\obj\Debug\net7.0\InPositionChatBot.Data.csproj.CopyComplete

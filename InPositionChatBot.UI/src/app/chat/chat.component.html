@@ -1,0 +1,36 @@
+<div class="screen">
+    <div class="content">
+        <div *ngFor="let message of messages" [ngClass]="!message.sender ? 'left' : 'right'">
+            <div class="message-container">
+                <div class="message-text">
+                    {{message.text}}
+                    
+                </div>
+                <mat-icon aria-hidden="false" *ngIf="message.sender && message.state === 'Error'" color="warn">error</mat-icon>
+                <mat-icon aria-hidden="false" *ngIf="message.sender && message.state === 'Success'" color="primary">check_circle</mat-icon>
+                <mat-icon aria-hidden="false" *ngIf="message.sender && message.state === 'NoResponse'" color="basic">panorama_fish_eye</mat-icon>
+
+            </div>
+            
+            <div class="message-date">
+                {{message.date | date : 'short'}}
+            </div>            
+        </div>
+    </div>
+    <app-loader class="loader" *ngIf="isWaitingForResponse"></app-loader>
+
+    <textarea [(ngModel)]="text" class="writing-area" rows="1" ></textarea>
+</div>    
+<div class="actions">
+    <button mat-raised-button color="warn" (click)="restartConversation()" [disabled]="isWaitingForResponse">
+        Restart conversation
+    </button>
+    
+    <button mat-raised-button color="basic" (click)="resendLastMessage()" [disabled]="isWaitingForResponse">
+        Resend last message
+    </button>
+    
+    <button mat-raised-button color="primary" (click)="sendMessage(text)">
+        Send
+    </button>
+</div>

@@ -1,0 +1,11 @@
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Domain\bin\Debug\net7.0\InPositionChatBot.Domain.deps.json
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Domain\bin\Debug\net7.0\InPositionChatBot.Domain.dll
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Domain\bin\Debug\net7.0\InPositionChatBot.Domain.pdb
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Domain\obj\Debug\net7.0\InPositionChatBot.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Domain\obj\Debug\net7.0\InPositionChatBot.Domain.AssemblyInfoInputs.cache
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Domain\obj\Debug\net7.0\InPositionChatBot.Domain.AssemblyInfo.cs
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Domain\obj\Debug\net7.0\InPositionChatBot.Domain.csproj.CoreCompileInputs.cache
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Domain\obj\Debug\net7.0\InPositionChatBot.Domain.dll
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Domain\obj\Debug\net7.0\refint\InPositionChatBot.Domain.dll
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Domain\obj\Debug\net7.0\InPositionChatBot.Domain.pdb
+C:\Work\Inovation\Centric-Inovation-2023\InPositionChatBot\InPositionChatBot.Domain\obj\Debug\net7.0\ref\InPositionChatBot.Domain.dll
