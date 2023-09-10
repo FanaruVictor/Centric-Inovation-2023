@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -14,6 +14,7 @@ import {MatInputModule} from '@angular/material/input';
 import { ToastrModule } from 'ngx-toastr';
 import { HttpClientModule } from '@angular/common/http';
 import { LoaderComponent } from './utils/loader/loader.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { LoaderComponent } from './utils/loader/loader.component';
     HttpClientModule,
     ToastrModule.forRoot({
       preventDuplicates: true
-    })
+    }),
+    ServiceWorkerModule.register('ngsw-worker.js')
   ],
   providers: [],
   bootstrap: [AppComponent]

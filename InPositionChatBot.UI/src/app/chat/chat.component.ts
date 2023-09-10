@@ -4,7 +4,7 @@ import { ToastrService } from 'ngx-toastr';
 import { Subscription } from 'rxjs';
 import { FaqService } from '../services/faq.service';
 import { ChatService } from '../services/chat.service';
-import { uid } from 'uid';
+import { Guid } from 'guid-typescript';
 
 @Component({
   selector: 'app-chat',
@@ -16,9 +16,9 @@ export class ChatComponent implements OnDestroy {
   isWaitingForResponse = false;
   
   messages: UIMessage[] = [
-    {id: uid(), sender: Sender.User, text: "Give me spar configuration", date: new Date(), state: State.success},
+    {id: Guid.create().toString(), sender: Sender.User, text: "sdas fasdf asd f asdf asd fasd f asdf asdf asd fa sdf asd fas df asd fasd f asdf asd f asdfaf", date: new Date(), state: State.success},
     {
-      id: uid(),
+      id: Guid.create().toString(),
       sender: Sender.AI, 
       text: `
         <?xml version="1.0" encoding="UTF-8"?>
@@ -38,8 +38,8 @@ export class ChatComponent implements OnDestroy {
       date: new Date(),
       state: State.success
     },
-    {id: uid(), sender: Sender.User, text: "Give me all retailers", date: new Date(), state: State.error},
-    {id: uid(), sender: Sender.AI, text: "Give me all retailers", date: new Date(), state: State.noResponse},
+    {id: Guid.create().toString(), sender: Sender.User, text: "Give me all retailers", date: new Date(), state: State.error},
+    {id: Guid.create().toString(), sender: Sender.AI, text: "Give me all retailers", date: new Date(), state: State.noResponse},
   ]
 
   faqSubscription: Subscription = new Subscription();
@@ -78,7 +78,7 @@ export class ChatComponent implements OnDestroy {
   sendMessage(text: string){
     if(text !== '' && !this.isWaitingForResponse){
       const message = {
-        id: uid(32),
+        id: Guid.create().toString(),
         sender: Sender.User,
         text: text,
         date: new Date()

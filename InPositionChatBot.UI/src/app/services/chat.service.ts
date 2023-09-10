@@ -9,7 +9,7 @@ import { environment } from 'src/environemnts/environments';
 })
 export class ChatService {
   private subject = new Subject<Message | undefined>();
-  url = `${environment.apiUrl}/messages`;
+  url = `${environment.apiUrl}/Messages`;
   constructor(private httpClient: HttpClient) { }
 
   sendMessage(message: Message): Observable<boolean>{

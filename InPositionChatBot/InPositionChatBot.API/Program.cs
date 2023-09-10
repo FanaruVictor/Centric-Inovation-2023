@@ -15,16 +15,15 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDb(builder.Configuration);
 builder.Services.AddBusinessLogicServices();
 
-var allowedCorsHosts = builder.Configuration["AllowedHosts"]?.Split(",");
+var allowedCorsHosts = builder.Configuration["AllowedHosts"]?.Split(",") ?? new[] { "*" };
 builder.Services.AddCors(options =>
 {
 	options.AddDefaultPolicy(
 		policyBuilder =>
 		{
-			policyBuilder.WithOrigins(allowedCorsHosts ?? new[] { "*" });
+			policyBuilder.WithOrigins(allowedCorsHosts);
 			policyBuilder.AllowAnyHeader();
 			policyBuilder.AllowAnyMethod();
-			policyBuilder.AllowCredentials();
 		});
 });
 
@@ -46,6 +45,8 @@ if (app.Environment.IsDevelopment())
 	app.UseSwagger();
 	app.UseSwaggerUI();
 }
+
+app.UseCors();
 
 app.UseHttpsRedirection();
 

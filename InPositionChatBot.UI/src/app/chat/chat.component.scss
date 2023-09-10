@@ -1,16 +1,15 @@
 :host{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
+
     .screen{
         height: 90%;
-        width: 100%;
-        border: 1px solid #adadad;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
-        padding: 10px;
+        padding: 10px 10px 0 10px;
         justify-content: space-between;
 
         .content{
@@ -30,11 +29,18 @@
                     align-items: center;
                     justify-content: end;
                     gap: 5px;
+
+                    mat-icon{
+                        width: 30px;
+                        height: 30px;
+                    }
                 }
             }
 
             .right{
-                text-align: right;
+                display: flex;
+                flex-direction: column;
+                align-items: end;
                 margin-left: calc(50% - 10px);
                 width: auto;
 
@@ -46,7 +52,9 @@
 
             }
             .left{
-                text-align: left;
+                display: flex;
+                flex-direction: column;
+                align-items: start;
                 margin-right: calc(50% - 10px);
                 width: auto;
 
@@ -72,12 +80,42 @@
     }
     
     .actions {
-        width: 100%;
-        padding-top: 40px;
         display: flex;
         justify-content: space-between;
+        height: 10%;
+        
         button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             min-width: 20%;
         }
+    }
+}
+
+@media (max-width: 639px ) {
+    .actions {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around !important;
+        height: 15% !important;
+
+    }
+
+    .screen{
+        height: 85% !important;
+        border: none !important;
+
+   }
+}
+
+@media (min-width: 640px) {
+    .actions {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+       
     }
 }

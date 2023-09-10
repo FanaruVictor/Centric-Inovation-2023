@@ -1,4 +1,4 @@
-<div class="screen">
+<div class="screen container">
     <div class="content">
         <div *ngFor="let message of messages" [ngClass]="!message.sender ? 'left' : 'right'">
             <div class="message-container">
@@ -21,7 +21,7 @@
 
     <textarea [(ngModel)]="text" class="writing-area" rows="1" ></textarea>
 </div>    
-<div class="actions">
+<div class="actions container">
     <button mat-raised-button color="warn" (click)="restartConversation()" [disabled]="isWaitingForResponse">
         Restart conversation
     </button>

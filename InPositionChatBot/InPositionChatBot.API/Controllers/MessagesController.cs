@@ -2,23 +2,23 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace InPositionChatBot.API.Controllers
+namespace InPositionChatBot.API.Controllers;
+
+[ApiController, Route("api/[controller]")]
+public class MessagesController : Controller
 {
-	[ApiController, Route("api/[controller]")]
-	public class MessagesController : Controller
+	private readonly IMediator _mediator;
+
+	public MessagesController(IMediator mediator)
 	{
-		private readonly IMediator _mediator;
-
-		public MessagesController(IMediator mediator)
-		{
-			_mediator = mediator;
-		}
+		_mediator = mediator;
+	}
 
 
-		[HttpPost]
-		public async Task<bool> Create([FromBody] CreateMessageCommand command)
-		{
-			return await _mediator.Send(command);
-		}
+	[HttpPost]
+	public async Task<bool> Create([FromBody] CreateMessageCommand command)
+	{
+		return await _mediator.Send(command);
 	}
 }
+

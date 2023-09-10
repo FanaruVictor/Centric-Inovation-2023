@@ -1,16 +1,44 @@
 .wrapper{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding-top: 40px;
+    
     .faq{
         padding: 15px;
         background-color: #ebebeb;
         border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         &:hover{
             background-color: rgb(119, 119, 119);
             color: white;
         }
+    }
+}
+
+@media (max-width: 474px) {
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 475px) {
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 640px) {
+    .wrapper{
+        grid-template-columns:  repeat(2, 1fr);
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .wrapper{
+        grid-template-columns: repeat(3, 1fr);
     }
 }
